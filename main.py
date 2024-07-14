@@ -29,7 +29,7 @@ client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Sidebar
 with st.sidebar:
-    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHUgehE8sCB8bshrPu3-4i3RkGjpjzTFj3yw&s", width=150)
+    # st.image("", width=150)
     st.header("About")
     st.write("This is an AI-powered chatbot using OpenAI's GPT-3.5-turbo model.")
 
